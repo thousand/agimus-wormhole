@@ -12,7 +12,7 @@
 		"format": "prettier --write ."
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-auto": "next",
+		"@sveltejs/adapter-static": "next",
 		"@sveltejs/kit": "next",
 		"eslint": "^8.16.0",
 		"eslint-config-prettier": "^8.3.0",
@@ -28,5 +28,9 @@
 	"volta": {
 		"node": "16.17.0",
 		"yarn": "1.22.19"
+	},
+	"dependencies": {
+		"msgpack-lite": "^0.1.26",
+		"rfc4648": "^1.5.2"
 	}
 }
